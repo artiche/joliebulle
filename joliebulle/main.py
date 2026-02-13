@@ -884,6 +884,7 @@ if __name__ == "__main__":
 
     logger = logging.getLogger(__name__)
 
+    logger.info("Hello! Welcome to JolieBulle - Your brewing companion");
     logger.debug("Initializing UI");
     QtCore.QTextCodec.setCodecForLocale(QtCore.QTextCodec.codecForName("utf-8"))
     app = QtWidgets.QApplication(sys.argv)
